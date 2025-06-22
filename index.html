@@ -1,15 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Player with Logo</title>
+  <title>unitedailyx</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
       overflow: hidden;
+      background-color: #000;
+      font-family: Arial, sans-serif;
+    }
+
+    #logo {
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      z-index: 10;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 10px 15px;
+      border-radius: 8px;
     }
 
     #player {
@@ -19,30 +34,18 @@
       width: 100%;
       height: 100%;
       border: 0;
-      z-index: 1;
-    }
-
-    #logo {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      width: 100px;
-      z-index: 2;
     }
   </style>
 </head>
 <body>
-  <iframe
-    id="player"
-    marginheight="0"
-    marginwidth="0"
-    src="https://vecloud.eu/stream/6fed2f96-5a25-4702-a909-168bfe459689"
-    scrolling="no"
-    allowfullscreen="yes"
-    allow="encrypted-media; picture-in-picture;"
-    frameborder="0">
-  </iframe>
-
-  <img id="logo" src="logo.jpg" alt="Uniteddaily Logo">
-</body>
-</html>
+  <div id="logo">unitedailyx</div>
+  <iframe 
+    id="player" 
+    marginheight="0" 
+    marginwidth="0" 
+    src="https://veplay.top/stream/93769435-0a71-42cc-af57-7f4181e884ea" 
+    scrolling="no" 
+    allowfullscreen="yes" 
+    allow="encrypted-media; picture-in-picture;" 
+    frameborder="0" 
+    style="
