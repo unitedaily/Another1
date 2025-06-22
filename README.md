@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Welcome</title>
+  <meta charset="UTF-8">
+  <title>unitedailyx</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+    }
+    #logo {
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      z-index: 10;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      background: rgba(0,0,0,0.6);
+      padding: 10px 15px;
+      border-radius: 8px;
+    }
+    #player {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello World!</h1>
-  <p>This is my first GitHub Pages site.</p>
+  <div id="logo">unitedailyx</div>
+  <iframe id="player" marginheight="0" marginwidth="0" src="https://veplay.top/stream/93769435-0a71-42cc-af57-7f4181e884ea" scrolling="no" allowfullscreen="yes" allow="encrypted-media; picture-in-picture;"></iframe>
 </body>
-</html># Another1
+</html>
