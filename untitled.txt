@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MXGP Live – Unitedailyx</title>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; background: #000; }
+    iframe { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://veplay.top/stream/93769435-0a71-42cc-af57-7f4181e884ea"
+    allowfullscreen
+    allow="encrypted-media; picture-in-picture;"
+    scrolling="no">
+  </iframe>
+</body>
+</html>
