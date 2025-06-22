@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Stream</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    #overlay {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: #fff;
+    }
+
+    #overlay img {
+      height: 40px;
+    }
+
+    #player {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="overlay">
+    <img src="your-logo-url.png" alt="Logo"> <!-- Replace with your actual logo URL -->
+    <span>Make sure you use ad blocker</span>
+  </div>
+
+  <iframe id="player" marginheight="0" marginwidth="0"
+    src="https://veplay.top/stream/93769435-0a71-42cc-af57-7f4181e884ea"
+    scrolling="no" allowfullscreen="yes"
+    allow="encrypted-media; picture-in-picture;">
+  </iframe>
+
+</body>
+</html>
