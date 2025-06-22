@@ -1,0 +1,11 @@
+<iframe
+  id="player"
+  src="https://veplay.top/stream/93769435-0a71-42cc-af57-7f4181e884ea"
+  width="100%"
+  height="100%"
+  frameborder="0"
+  allowfullscreen
+  allow="encrypted-media; picture-in-picture;"
+  scrolling="no"
+  style="position:absolute;">
+</iframe>
